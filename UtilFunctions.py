@@ -8,10 +8,6 @@ import seaborn as sn
 from IPython.display import IFrame
 from matplotlib.pyplot import figure
 
-cid = "bc13d66ac4bf4702ac2bac333552a7d6"
-secret = "361b64012a7843128a06fec17e89af08"
-# spotifyId = "06AKEBrKUckW0KREUWRnvT"
-
 try:
     client_credentials_manager = SpotifyClientCredentials(
         client_id=cid,
